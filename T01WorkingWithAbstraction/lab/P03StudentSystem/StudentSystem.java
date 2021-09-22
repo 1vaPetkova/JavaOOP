@@ -1,9 +1,8 @@
 package T01WorkingWithAbstraction.lab.P03StudentSystem;
 
-import input.ConsolePrinter;
-import input.Reader;
+import Workshops.BoatRacingSimulator.input.Reader;
 
-import static input.ConsolePrinter.printLine;
+import static Workshops.BoatRacingSimulator.input.ConsolePrinter.printLine;
 
 public class StudentSystem {
     private CommandHandler handler;

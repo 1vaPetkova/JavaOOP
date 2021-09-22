@@ -9,8 +9,6 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 public abstract class AbstractLogger implements Logger {
-
-
     private List<Appender> appenders;
 
     public AbstractLogger(Appender... appenders) {

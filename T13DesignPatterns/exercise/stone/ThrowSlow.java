@@ -1,0 +1,12 @@
+package T13DesignPatterns.exercise.stone;
+
+import T13DesignPatterns.exercise.shared.StoneFactory;
+
+import static T13DesignPatterns.exercise.core.Main.gameObjects;
+
+public class ThrowSlow implements Throw{
+    @Override
+    public void throwStone() {
+        gameObjects.add(new StoneFactory().produce());
+    }
+}

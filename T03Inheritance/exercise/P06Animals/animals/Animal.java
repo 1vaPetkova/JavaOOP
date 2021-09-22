@@ -16,21 +16,21 @@ public class Animal {
 
     public void setName(String name) {
         if (name.trim().isEmpty()){
-            throw new IllegalArgumentException("Invalid input!");
+            throw new IllegalArgumentException("Invalid Workshops.BoatRacingSimulator.input!");
         }
         this.name = name;
     }
 
     public void setAge(int age) {
         if (age<0){
-            throw new IllegalArgumentException("Invalid input!");
+            throw new IllegalArgumentException("Invalid Workshops.BoatRacingSimulator.input!");
         }
         this.age = age;
     }
 
     public void setGender(String gender) {
         if (!gender.equals("Male")&&!gender.equals("Female")){
-            throw new IllegalArgumentException("Invalid input!");
+            throw new IllegalArgumentException("Invalid Workshops.BoatRacingSimulator.input!");
         }
         this.gender = gender;
     }

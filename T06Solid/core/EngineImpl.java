@@ -28,11 +28,11 @@ public class EngineImpl implements Engine {
 
         addAppenders(Integer.parseInt(line));
         while (isRunning) {
-            //read input
+            //read Workshops.BoatRacingSimulator.input
             line = reader.readLine();
-            //parse input
+            //parse Workshops.BoatRacingSimulator.input
             String[] parse = InputParser.parse(line);
-            //execute input
+            //execute Workshops.BoatRacingSimulator.input
             if (!parse[0].equals("END")){
             logMessage(parse);
             }

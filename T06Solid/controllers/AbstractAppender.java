@@ -32,10 +32,7 @@ public abstract class AbstractAppender implements Appender {
 
     protected abstract String getType();
 
-
-
     @Override
-
     public String toString() {
         StringBuilder sb = new StringBuilder("Appender type: ");
         sb.append(this.getType())

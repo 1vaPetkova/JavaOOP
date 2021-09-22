@@ -1,7 +1,5 @@
 package T01WorkingWithAbstraction.lab.P02PointInRectangle;
 
-import input.Reader;
-
 public class Rectangle {
     private final Point A;
     private final Point B;

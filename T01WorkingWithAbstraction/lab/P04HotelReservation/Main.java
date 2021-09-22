@@ -1,6 +1,6 @@
 package T01WorkingWithAbstraction.lab.P04HotelReservation;
 
-import input.Reader;
+import Workshops.BoatRacingSimulator.input.Reader;
 
 import java.util.Locale;
 

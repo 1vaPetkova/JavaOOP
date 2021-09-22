@@ -15,7 +15,7 @@ public class FactoryRepository {
         if (appenderFactory == null) {
             return appenderFactory = new AppenderWorkshop();
         }
-return appenderFactory;
+        return appenderFactory;
     }
 
     public static LayoutFactory getLayoutFactory() {

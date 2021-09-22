@@ -1,8 +1,6 @@
 package T01WorkingWithAbstraction.lab.P02PointInRectangle;
 
-import input.Reader;
-
-import java.util.Scanner;
+import Workshops.BoatRacingSimulator.input.Reader;
 
 public class Main {
     public static void main(String[] args) {

@@ -20,7 +20,7 @@ public class CommandModel implements CommandInterpreter {
         Executable executable;
         commandName = Character.toUpperCase(commandName.charAt(0)) + commandName.substring(1);
         try {
-            Class clazz = Class.forName("T07ReflectionAndAnnotation.exercise.P04_05BarracksWars.barracksWars.core.commands." + commandName);
+            Class clazz = Class.forName("T07ReflectionAndAnnotation.exercise.P04_05BarracksWars.barracksWars.Workshops.BoatRacingSimulator.core.commands." + commandName);
             Constructor constr = clazz.getDeclaredConstructor();
             executable = (Executable) constr.newInstance();
             injectFields(executable, data);
